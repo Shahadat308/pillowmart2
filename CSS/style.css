@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*--Navbar CSS start*/
+.nav-item a{
+  color: #4b3049;
+  font-size: 16px !important;
+  font-weight: 550 !important;
+}
+
+.nav-item .nav-link:focus,.nav-item .nav-link:hover{
+  color: #b08ead !important;
+  transition: ease 0.3s !important;
+  font-weight: 600 !important;
+ 
+}
+
+
+.dropdown-menu{
+visibility:hidden;
+  opacity:0;
+  transition:all .9s;
+}
+
+.dropdown:hover  .dropdown-menu {
+visibility:visible;
+opacity:1;
+background-color:#b08ead;
+}
+
+.dropdown-item{
+color:white !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus{
+background-color:transparent;
+color:rgb(0, 0, 0) !important;	
+transition: all 1s;
+}
+
+.navbar-nav .nav-item .active{
+color:#B08EAD !important;
+}
+
+/*--Navbar CSS end*/
+
+
+
+
+/*--About section CSS start*/
+.about figure{
+  margin-top: 70px;
+  background-color: #b08ead;
+  padding: 170px 0;
+}
+
+.about h2{
+  font-size: 50px;
+  font-weight: 600;
+}
+/*--About section CSS end*/
+
+
+
+/*--Our misson section CSS start*/
+.our-misson{
+  margin-top: 150px;
+}
+.video-part h3{
+  font-size: 22px;
+  color:#B08EAD !important;
+ 
+}
+
+.video-part p{
+  font-size: 24px !important;
+  line-height: 1.5;
+  color: #4B3049 ;
+  margin: 5px 0 40px;
+  font-weight: 400;
+}
+
+
+
+/*--Our misson section CSS end*/
+
+/*--feature-part+service start--*/
+.feature{
+  padding: 100px 0;
+}
+
+/* .feature .feature-part .service-part div{
+  width: 24% !important;
+
+} */
+
+.feature-part h3{
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #4B3049;
+}
+
+.feature-part p{
+  font-family: "Rubik", sans-serif;
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #707070;
+    font-weight: 600;
+    width:500px;
+}
+
+.service-part div{
+  max-width: 24%;
+  text-align: center;
+    border: 1px solid #E4D3DF;
+    border-radius: 3px;
+    padding: 35px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.service-part img{
+  margin-bottom: 20px;
+}
+
+
+.service-part h4{
+  font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #4B3049;
+}
+
+
+
+     
+/*--feature-part+service end--*/
+
+/*--Clint review section CSS start*/
+.clint-review{
+  height: 500px;
+    text-align: center;
+    background-color: #B08EAD;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+
+.clint-review .clint-img{
+  margin: 0 auto;
+  position: relative;
+}
+
+.clint-review .clint-img img{
+  border-radius: 50%;
+  
+}
+
+.clint-img p{
+  position: absolute !important;
+  left: 390px;
+  top: 65px;
+  height: 50px;
+  width: 50px;
+  padding-top: 7px;
+  background-color: #E4D3DF ;
+  font-size: 25px ;
+  font-family: 'Flaticon' !important;
+  border-radius: 50%;
+  
+  color: #fff;
+  
+}
+
+.clint-review p{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  
+}
+
+
+.clint-review h5{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+
+.carousel-item div{
+  margin-top:50px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  
+  border:1px solid #795376;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-size: 60% 60%;
+  background-position: center;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+  background-color: #795376;
+  transition: ease 0.5s;
+  border:1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.carousel-control-prev:hover, .carousel-control-next:hover{
+  opacity: .5 !important;
+}
+
+.clint-review button{
+  cursor:default !important;
+}
+
+/*--Clint review section CSS end*/
+
+
+/*--Subscribe section CSS start*/
+.subscribe-part{
+    background-color: #4B3049;
+    padding: 100px 0;
+}
+
+
+.subscribe-part .container{
+  margin: auto;
+}
+
+
+.subscribe-content h2{
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.5;
+}
+
+
+.subscribe-content p{
+  line-height: 2;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
+  /*--search box start--*/
+  .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    }
+
+
+    
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:black;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+        background-color: #fff;
+        color: #B08EAD !important;
+        transition:ease 1s;
+        border: 2px solid #b08ead !important;
+    }
+
+    .search_icon{
+      margin-top: -1px;
+    float: right;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color:white;
+    background-color: #b08ead;
+    text-decoration:none;
+    border: 2px solid transparent !important;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 22px;
+    }
+
+    /*--search box end--*/
+/*--Subscribe section CSS end*/
+
+
+/*---footer section start--*/
+	 /*---footer-inner section start--*/
+      .footer-part .container .footer-inner{
+        padding: 130px 0;
+      }
+
+      .footer-part .footer-menu .logo a{
+        display: inline-block;
+          margin-right: 45px;
+      }
+
+
+      .footer-part .footer-menu .menu-item a{
+          display: inline-block;
+          color: #4B3049;
+          font-size: 16px;
+          padding: 0 15px;
+          text-decoration: none;
+          font-weight: 500;
+      }
+
+      .footer-part .footer-menu .active{
+        color: #b08ead !important;
+      }
+
+
+      .footer-part .footer-menu .menu-item a:hover{
+        color: #caa7c0;
+        transition: all 0.6s;
+      }
+
+      .footer-part .social-icon{
+        text-align: right;
+      }
+
+      .footer-part .social-icon a{
+          height: 45px;
+          width: 45px;
+          border-radius: 50%;
+          background-color: #4B3049;
+          line-height: 45px;
+          color: #fff;
+          display: inline-block;
+          text-align: center;
+          margin-left: 3px;
+      }
+
+      .footer-part .social-icon a:hover{
+        background-color: #caa7c0;
+        transition: all 0.6s;
+      }
+
+    /*---footer-inner section end--*/
+
+
+    /*---footer-copyright section start--*/
+      .footer-part .copyright-part{
+          background-color: #F4EDF2;
+          padding: 30px 0px;
+      }
+
+      .footer-part .copyright-part p{
+          font-family: "Rubik", sans-serif;
+          line-height: 2;
+          font-size: 16px;
+          margin-bottom: 0px;
+          color: #795376;
+          font-weight: 500;
+      }
+      
+      .footer-part .copyright-part p a{
+        color: #795376;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .footer-part .copyright-part .link{
+        text-align: right;
+        
+      }
+
+      .footer-part .copyright-part .link a{
+        text-decoration: none;
+        margin-left: 35px;
+        color: #4B3049;
+        margin-bottom: 0px;
+        font-size: 16px;
+      }
+
+      .footer-part .copyright-part .link a:hover{
+        color: #caa7c0;
+        transition: all 0.6s;
+      }
+
+    /*---footer-copyright section start--*/
+
+
+/*---footer section end--*/
+
+
+/*--- max-width_991px---*/
+    @media (max-width:991px){
+
+
+
+      /*--feature part start--*/
+      .feature{
+        padding: 60px 0 !important;
+      }
+
+      .feature .feature-part h3{
+        font-size: 25px !important;
+      }
+      .feature-part p{
+        width: 100% !important;
+      }
+
+      .service-part div{
+        margin-top: 10px !important;
+        max-width: 48% !important;
+      }
+
+      /*--feature part end--*/
+    }
+
+
+
+
+
+
+
+
+
